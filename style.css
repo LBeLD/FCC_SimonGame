@@ -1,0 +1,227 @@
+body{
+  font-family: 'Baloo', cursive;
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+p{
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#simon{
+  width: 450px;
+  height: 450px;
+  background-color: #5b5752;
+  border-radius: 100%;
+  margin: 100px auto;
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.quarterCircle {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 25px;
+  top:25px;
+  cursor: pointer;
+}
+
+#green {
+  background-color: rgba(0, 255, 6, 0.6);
+  float: left;
+  border-top-left-radius: 100%;
+  border-right: 12.5px solid #5b5752;
+  border-bottom: 12.5px solid #5b5752;
+
+}
+
+.newgreen{
+  background-color: rgba(0, 255, 6, 1) !important;
+}
+
+
+#red {
+  background-color: rgba(255, 4, 4, 0.6);
+  float:left;
+  border-top-right-radius: 100%;
+  border-left: 12.5px solid #5b5752;
+  border-bottom: 12.5px solid #5b5752;
+
+}
+
+.newred{
+  background-color: rgba(255, 4, 4, 1) !important;
+}
+
+#yellow{
+  background-color: rgba(255, 230, 0, 0.6);
+  float:left;
+  border-bottom-left-radius: 100%;
+  border-right: 12.5px solid #5b5752;
+  border-top: 12.5px solid #5b5752;
+}
+
+.newyellow{
+  background-color: rgba(255, 230, 0, 1) !important;
+}
+
+#blue {
+  background-color: rgba(0, 163, 255, 0.6);
+  float:left;
+  border-bottom-right-radius: 100%;
+  border-left: 12.5px solid #5b5752;
+  border-top: 12.5px solid #5b5752;
+}
+
+.newblue{
+  background-color: rgba(0, 163, 255, 1) !important;
+}
+
+#console{
+  width: 230px;
+  height: 230px;
+  background:linear-gradient(-45deg, #d3d3d3 15%, #ffffff 100%);
+  border: 15px solid #5b5752;
+  border-radius: 100%;
+  position:relative;
+  top:110px;
+  left: 110px;
+  position: absolute;
+}
+
+#title{
+  position: relative;
+  left: 43px;
+  top:15px;
+}
+
+#display{
+  color:#c42a20;
+  border: 3px solid #5b5752;
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  background-color: #461a1a;
+  border-radius:5px;
+  position: relative;
+  left: 20px;
+  top: 20px
+}
+
+#display h4{
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+#count{
+  position: relative;
+  left:-33px;
+  top: -15px;
+}
+
+#start{
+  position: relative;
+  left:85px;
+  top: -42px;
+}
+
+#strict{
+  position: relative;
+  left:135px;
+  top: -67px;
+}
+
+#off{
+  position: relative;
+  top:-52px;
+  left: 47px;
+}
+
+#on{
+  position: relative;
+  top:-78px;
+  left: 132px;
+}
+
+.mainButtons {
+  position: relative;
+  margin-right: 20px;
+  left:90px;
+  top:-25px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border : 2px solid #5b5752;
+  box-shadow : 2px 3px 2px #3b393a;
+}
+
+.mainButtons:active{
+  box-shadow : 0 1px 1px #292929;
+  top : -24px;
+
+}
+
+.mainButtons:focus{
+  outline: none;
+}
+
+#startButton {
+  background-color: #f72e2e;
+}
+
+#strictButton {
+  background-color: #d6d03e;
+}
+
+#light{
+  height: 8px;
+  width: 8px;
+  border: 1px solid #5b5752;
+  background-color: #1b191c;
+  border-radius: 100%;
+  position: relative;
+  left: 147px;
+  top:-28px;
+}
+
+#switchButton {
+  position: relative;
+  left:70px;
+  top:22px;
+  z-index: 1;
+}
+
+#offButton {
+  width: 30px;
+  height: 20px;
+  border: 3px solid #5b5752;
+  border-right: none;
+  background-color: #1c8cf4;
+  float:left;
+  cursor: pointer;
+
+}
+
+#onButton {
+  width: 30px;
+  height: 20px;
+  border: 1px solid #5b5752;
+  background-color: #1b191c;
+  border: 3px solid #5b5752;
+  border-left: none;
+  float:left;
+}
+
+.newClass{
+  opacity: 0.5;
+}
+
+.oldClass{
+  opacity: 1;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="simon">
+        <div class="quarterCircle" id="green"></div>
+        <div class="quarterCircle" id="red"></div>
+        <div class="quarterCircle" id="yellow"></div>
+        <div class="quarterCircle" id="blue"></div>
+        <div class="fullCircle" id="console">
+          <div id="title">
+            <h1>SIMON</h1>
+          </div>
+          <div id="display">
+            <h4 id='displayText'></h4>
+          </div>
+          <div id="light">
+          </div>
+          <div id="buttons">
+            <button class="mainButtons" type="button" name="start" id="startButton"></button>
+            <button class="mainButtons" type="button" name="strict" id="strictButton"></button>
+          </div>
+          <div id="switchButton">
+            <div id="offButton"></div>
+            <div id="onButton"></div>
+          </div>
+          <div id="count">
+            <p>COUNT</p>
+          </div>
+          <div id="start">
+            <p>START</p>
+          </div>
+          <div id="strict">
+            <p>STRICT</p>
+          </div>
+          <div id="off">
+            <p>OFF</p>
+          </div>
+          <div id="on">
+            <p>ON</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </body>
+</html>
