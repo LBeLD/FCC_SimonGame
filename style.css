@@ -1,7 +1,13 @@
 body{
   font-family: 'Baloo', cursive;
-  background: url(background.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+
 
 }
 
@@ -224,4 +230,12 @@ p{
 
 .oldClass{
   opacity: 1;
+}
+
+@media (max-width: 720px){
+  body{
+    -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+    zoom: 0.7; /* Other non-webkit browsers */
+    zoom: 70%; /* Webkit browsers */
+  }
 }
